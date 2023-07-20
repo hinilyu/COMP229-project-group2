@@ -33,7 +33,7 @@ In client folder
 
 ## Before starting to work
 
-[Guide on using Git](https://www.freecodecamp.org/news/practical-git-and-git-workflows/)
+[Guide on using Git](https://www.freecodecamp.org/news/practical-git-and-git-workflows/) <br />
 Instead of working on main directly, please branch off of main into your own feature branch, and then merge those changes back into main.
 
 ```bash
