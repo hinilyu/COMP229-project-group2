@@ -1,13 +1,13 @@
 # Grocery Store Inventory System
 
-This is a COMP229 Project by Group 2
+This is the COMP229 Project by Group 2 Grocery Team
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/hinilyu/COMP229-project-group2
 ```
 
 Go to the project directory and install dependencies
