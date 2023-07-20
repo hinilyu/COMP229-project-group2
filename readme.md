@@ -2,9 +2,24 @@
 
 This is a COMP229 Project by Group 2
 
-## Deployment
+## Run Locally
 
-To deploy this project run in client folder
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory and install dependencies
+
+```bash
+  cd client
+  npm install
+  cd ../Product
+  npm install
+```
+
+Start the server in client folder
 
 ```bash
   npm start
