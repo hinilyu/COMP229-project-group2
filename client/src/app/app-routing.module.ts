@@ -20,14 +20,7 @@ import { ProductsListComponent } from './components/products-list/products-list.
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { AddProductComponent } from './components/add-product/add-product.component';
 
- 
-
- 
-
- 
-
 const routes: Routes = [
-
   { path: 'home', component: HomeComponent },
 
   { path: 'login', component: LoginComponent },
@@ -42,30 +35,18 @@ const routes: Routes = [
 
   { path: 'admin', component: BoardAdminComponent },
 
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'products', pathMatch: 'full' },
 
-{ path: '', redirectTo: 'products', pathMatch: 'full' },
+  { path: 'products', component: ProductsListComponent },
 
-{ path: 'products', component: ProductsListComponent },
+  { path: 'products/:id', component: ProductDetailsComponent },
 
-{ path: 'products/:id', component: ProductDetailsComponent },
-
-{ path: 'add', component: AddProductComponent }
-
+  { path: 'add', component: AddProductComponent },
 ];
 
- 
-
- 
-
 @NgModule({
-
   imports: [RouterModule.forRoot(routes)],
 
-  exports: [RouterModule]
-
+  exports: [RouterModule],
 })
-
-export class AppRoutingModule { }
-
- 
+export class AppRoutingModule {}
