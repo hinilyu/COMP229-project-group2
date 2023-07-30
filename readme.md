@@ -19,7 +19,7 @@ Go to the project directory and install dependencies
   npm install
 ```
 
-Start the server in Project folder
+Start the server in Product folder
 
 ```bash
   npm start
