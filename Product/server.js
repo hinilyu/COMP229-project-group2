@@ -65,7 +65,7 @@ function initial() {
 }
 
 var corsOptions = {
-  origin: "*",
+  origin: ["https://main--dancing-crisp-aa9ad9.netlify.app/"],
   credentials: true,
 };
 
