@@ -65,7 +65,7 @@ function initial() {
 }
 
 var corsOptions = {
-  origin: ["http://localhost:8081"],
+  origin: "*",
   credentials: true,
 };
 
