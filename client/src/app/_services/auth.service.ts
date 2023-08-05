@@ -7,7 +7,12 @@ import { Observable } from 'rxjs';
 const AUTH_API = 'https://comp229-g2-grocery.onrender.com/api/auth/';
 
 const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
+  headers: new HttpHeaders({
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers':
+      'Origin, X-Requested-With, Content-Type, Accept',
+  }),
 };
 
 @Injectable({
