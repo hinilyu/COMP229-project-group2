@@ -35,6 +35,7 @@ import { BoardUserComponent } from './board-user/board-user.component';
  
 
 import { httpInterceptorProviders } from './_helpers/http.interceptor';
+import { HeaderComponent } from './header/header.component';
 
  
 
@@ -66,7 +67,8 @@ import { httpInterceptorProviders } from './_helpers/http.interceptor';
 
     BoardModeratorComponent,
 
-    BoardUserComponent
+    BoardUserComponent,
+     HeaderComponent
 
   ],
 
